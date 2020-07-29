@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+a{
+    color: #222;
+}
+nav .menu {
+    padding-top:15px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu div{
+    display:inline-block;
+    margin: 0 8px;
+    font-size: 13px;
+}
+.menu  a:hover div{
+    text-decoration: underline;
+}
+#apps img{
+    height:25px;
+    padding-top:0px; 
+}
+#signin{
+    background-color: #4285f4;
+    margin-right: 25px;
+    padding:8px 13px;
+    border:1px solid rgb(66, 133, 244);
+    color: white;
+    font-weight:700;
+}
+section > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+section .logo{
+	margin-top: 100px;
+	width:272px;
+}
+
+section .glesearchbar{
+	margin-top:30px;
+	height: 44px;
+	width:560px;
+	border:1px solid #dfe1e5;
+	border-radius: 24px;
+}
+#glesearchbox {
+    line-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: #333;
+    width: 500px;
+    font-size: 15px;
+    vertical-align: middle;
+    
+}
+input:focus{
+	outline: none;
+}
+ #glesearchicon{
+    margin-left: 12px;
+	margin-top: 12px;
+    display: inline-block;
+}
+ #glesearchicon img{
+    height: 25px;
+}
+.glebuttons{
+    display:flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top:30px;
+}
+.glebuttons div{
+    color:  #5F6368;
+    line-height: 33px;
+    padding:0px 16px;
+    margin:0px 4px;
+    background-color: rgb(242, 242, 242);
+    border:1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+}
+.glebuttons a{
+    text-decoration: none;
+}
+.glebuttons a:hover{
+    border:1px solid #e4e4e4;
+    color: black;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+	width:100vw;
+	line-height: 40px;
+	color:rgba(0,0,0,.54);
+	border-top:1px solid #e4e4e4;
+	font-size:14px;
+	background-color: #f2f2f2;
+	padding-left:30px;
+}
+.footerleft, .footerright{
+    display:flex;
+	border-top:1px solid #e4e4e4;
+	color:#5f6368;
+	height:40px;
+}
+.footerleft div, .footerright div{
+    padding-right: 27px;
+}
+.footerright {
+    margin-right: 27px;
+	float:right;
+}
+.footerleft a, .footerright a{
+    color: #5f6368;
+    text-decoration: none;
+}
+.footerleft a:hover, .footerright a:hover{
+    text-decoration: underline;
+}
